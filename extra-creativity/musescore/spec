@@ -1,4 +1,5 @@
-VER=3.6.2
-SRCS="tbl::https://github.com/musescore/MuseScore/archive/v$VER.tar.gz"
-CHKSUMS="sha256::c37acc6d7a316f04925265d2d22a35d715888580e16eff846e9b621954133c45"
-CHKUPDATE="anitya::id=6093"
+VER=4.0~alpha.0+git20211220
+SRCS="git::commit=86f03710a818a737f44e4e92643c0f70690751b3;rename=musescore::https://github.com/musescore/MuseScore \
+      tbl::https://download.steinberg.net/sdk_downloads/vst-sdk_3.7.2_build-28_2021-03-30.zip"
+CHKSUMS="SKIP sha256::1557710b8d3acfb7f787c6945306c202afe61cb23473a626e30625362ff296a4"
+SUBDIR="musescore"
