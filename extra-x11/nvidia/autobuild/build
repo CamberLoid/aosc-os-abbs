@@ -103,6 +103,7 @@ install -Dvm644 nvidia.icd "$PKGDIR"/etc/OpenCL/vendors/nvidia.icd
 install -Dvm755 "libnvidia-opencl.so.$PKGVER" \
     "$PKGDIR"/usr/lib/libnvidia-opencl.so.$PKGVER
 install_if_amd64 755 "libnvidia-compiler.so.$PKGVER" "$PKGDIR"/usr/lib
+install_if_amd64 755 "libnvidia-compiler-next.so.$PKGVER" "$PKGDIR"/usr/lib
 
 abinfo "NVIDIA Xorg driver..."
 install -Dvm755 nvidia_drv.so \
