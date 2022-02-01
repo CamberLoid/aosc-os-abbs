@@ -1,8 +1,8 @@
-VER=495.46
-_SETTINGS_VER=495.46
+VER=510.47.03
+_SETTINGS_VER=510.47.03
 SRCS="file::rename=NVIDIA-Linux-x86_64-$VER.run::https://us.download.nvidia.com/XFree86/Linux-x86_64/$VER/NVIDIA-Linux-x86_64-$VER.run \
       tbl::https://github.com/NVIDIA/nvidia-settings/archive/${_SETTINGS_VER}.tar.gz"
-CHKSUMS="sha256::d83b77d17da0c54667aa5b13d6ea95a5c51304257b1ecf2f8d4a3b5ae31c62f5 \
-         sha256::a368070d496ee24303a10ded2fc9395e10c92694db46fdd6e094dddbd37b10c3"
+CHKSUMS="sha256::f2a421dae836318d3c0d96459ccb3af27e90e50c95b0faa4288af76279e5d690 \
+         sha256::8132684cbbc6ffba4e101696009bbf57ff364305485f2905124bf9f469303910"
 SUBDIR=.
 CHKUPDATE="anitya::id=5454"
