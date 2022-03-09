@@ -1,2 +1,9 @@
-make PYTHON_VERS=python2 all doc
-make PYTHON_VERS=python2 prefix="/usr" DESTDIR="$PKGDIR" install install_gui install_doc
+abinfo "Building trace-cmd ..."
+make all doc \
+    PYTHON_VERS=python2
+
+abinfo "Installing trace-cmd ..."
+make install install_doc \
+    PYTHON_VERS=python2 \
+    prefix="/usr" \
+    DESTDIR="$PKGDIR"
