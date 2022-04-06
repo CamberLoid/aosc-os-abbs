@@ -1,0 +1,8 @@
+core-database/gdbm
+core-devel/binutils
+core-devel/gcc
+core-devel/linux+api
+core-libs/readline
+core-libs/zstd
+core-shells/bash
+core-misc/aosc-aaa
