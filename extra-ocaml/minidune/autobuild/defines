@@ -1,0 +1,8 @@
+PKGNAME=minidune
+PKGSEC=ocaml
+PKGDEP="findlib ocaml"
+PKGDES="A composable build system for OCaml, bootstrap only"
+
+PKGPROV=dune
+
+NOSTATIC=0
